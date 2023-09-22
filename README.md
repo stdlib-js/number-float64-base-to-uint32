@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import float64ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-uint32@deno/mod.js';
+import float64ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-uint32@v0.1.0-deno/mod.js';
 ```
 
 #### float64ToUint32( x )
@@ -83,7 +83,7 @@ y = float64ToUint32( -Infinity );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import MAX_INT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint32-max@deno/mod.js';
-import float64ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-uint32@deno/mod.js';
+import float64ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-uint32@v0.1.0-deno/mod.js';
 
 var uint32;
 var half;
